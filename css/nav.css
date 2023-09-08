@@ -1,0 +1,122 @@
+/*-----------nav----------*/
+nav {
+    height: 950px;    
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.menu-container {
+    display: grid;
+    height: 950px;
+    align-content: space-between;
+    position: fixed;
+}
+
+.up-menu {
+    width: 225px;
+    height: 574px;
+}
+
+.logo_wrap {
+    height: 42px;
+    width: 41px;
+    margin-bottom: 22px;
+}
+
+.logo {
+    color: #1DA1F2;
+    font-size: 32px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.menu div {
+    height: 48px;
+}
+
+.menu i {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 12px;
+    width: 20px;
+}
+.menu i:hover {
+    color: #1DA1F2;
+}
+
+.menu a:hover {
+    color: #1DA1F2;
+}
+
+.menu a {
+    display: inline;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    text-decoration:none;
+}
+
+.b_menu {
+    margin-top: 34px;
+    width: 100%;
+    height: 48px;
+    background: #1DA1F2;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.b_menu:hover {
+    background: #1da0f298;
+}
+
+.lower-part {
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 64px;
+    width: 215px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 40px;
+}
+.lower-part:hover{
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.lower-part_img {
+    margin-right: 10px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+}
+
+.user_name {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+color: #0F1419;
+}
+
+.lower-part .fa-solid {
+    margin-left: 50px;
+}
+
+.login{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #5B7083;
+}

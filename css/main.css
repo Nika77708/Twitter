@@ -1,0 +1,274 @@
+/*-----------main----------*/
+main {
+    height: 950px;
+    margin-right: 8px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+main::-webkit-scrollbar {
+    width: 0;
+}
+
+.maim_upper_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    width: 598px;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+.step1 {
+    width: 598px;
+    position: fixed;
+}
+
+.maim_upper_line_img {
+    width: 18px;
+    margin-right: 10px;
+    height: 18px;
+}
+
+
+.write_tweet {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 8px;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 598px;
+}
+
+.write_tweet {
+    height: 64px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px #EBEEF0;
+    display: flex;
+    align-items: center;
+}
+
+.write_tweet_cont {}
+
+.write_tweet_img {
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-right: 12px;
+
+}
+
+.text_section {
+    display: flex;
+    align-items: center;
+}
+
+#new_post {
+    height: 34px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0F1419;
+    resize: none;
+    border: none;
+}
+
+.fa-circle-plus {
+    width: 30px;
+    height: 30px;
+    font-size: 32px;
+}
+
+
+#write_tweet_i {
+    color: #1DA1F2;
+}
+
+.write_tweet_btn {
+    background-color: #1DA1F2;
+    width: 74px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+/* --- контент --- */
+
+a {
+    text-decoration: none;
+    color: #0F1419;
+}
+
+.article-wrapper {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: [column] 1fr;
+    height: auto;
+}
+
+.articles {
+    border: 1px solid rgba(128, 128, 128, 0.317);
+    width: 99.8%;
+    height: auto;
+    background: #FFFFFF;
+}
+
+
+.tw_wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+.user-tweet {
+    padding-top: 10px;
+}
+
+
+.user-photo {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+}
+
+.user-post {
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+    width: 98%;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wr {
+    display: flex;
+    align-content: center;
+}
+
+.user-account_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0F1419;
+    margin-right: 5px;
+}
+
+.user-account_username {
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #5B7083;
+    margin-left: 10px;
+}
+
+.check::before {
+    content: "\2b";
+    color: #1DA1F2;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+time {
+    color: #5B7083;
+}
+
+.more {
+    text-decoration: none;
+}
+
+.less {
+    text-decoration: none;
+}
+
+
+.user-post-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    width: 35px;
+}
+
+
+.btn {
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #5B7083;
+    font-size: 20px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn:hover {
+    color: #1DA1F2;
+}
+
+
+#li3 {
+    width: 45px;
+}
+
+.fa-solid {
+    margin-right: 20px;
+    color: #5B7083;
+}
+
+
+.liked {
+    color: #5B7083;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.liked::before {
+    font-family: FontAwesome;
+    content: "\f004";
+    margin-right: 16px;
+    font-size: 13px;
+}
+
+.liked:hover::before {
+    color: red;
+}
+
+.user-tweet p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 60px;
+    text-align: justify;
+}
+
+.user-tweet:target p {
+    height: auto;
+}

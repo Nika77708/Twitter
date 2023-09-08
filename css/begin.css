@@ -1,0 +1,28 @@
+body {
+    width: 1440px;
+    height: 1000px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+
+
+.main_wrapper {    
+    display: grid;
+    grid-template-columns: [col1] 275px [col2] 1fr [col3] 362px;
+    grid-template-rows: [row1] 1fr ;
+    width: 1237px;
+    height: 100%;
+    margin: auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
